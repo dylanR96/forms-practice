@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.main__form {
+    width: 30vw;
+    border: 2px solid #443385;
+    height: 50vw;
+}
+
+.main__form--position {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #443385;
+  }
