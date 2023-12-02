@@ -1,6 +1,8 @@
+.body-form-account {
+    background-color: rgb(229, 229, 229);
+}
 
-
-main {
+.main-form-index {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +11,7 @@ main {
     height: 100vh;
 }
 
-.main__form {
+.main-form-index__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,19 +22,73 @@ main {
     box-shadow: -6px 7px 0px 0px #ccc;
 }
 
-.form-input {
+.main-form-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-form-account__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: rgb(255, 255, 255);
+}
+    
+
+.header-top-account {
+    border: 1px solid rgb(237, 237, 237);
+    background-color: rgb(237, 237, 237);
+    padding: 2rem;
+    width: 20vw;
+    text-align: center;
+    margin-top: 0;
+}
+
+.account__form-input {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.account__labels-form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 10px;
+}
+
+.header-bottom-account {
+    text-align: center;
+}
+
+.account__form-input-btn {
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.index__form-input {
     outline: none;
     border: none;
     border-bottom: 1px solid #5c29db;
 }
 
-.form-input:focus {
+.index__form-input:focus {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
 }
 
-.form-input-btn {
+.index__form-input-btn {
     padding: 1rem;
     color: white;
     background-color: #443385;
@@ -40,9 +96,10 @@ main {
     box-shadow: -3px 4px 0px 0px #ccc;
 }
 
-.labels-form {
+.index__labels-form {
     color: #5c29db;
 }
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
