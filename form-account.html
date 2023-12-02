@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Create account</title>
 </head>
-<body>
-    
+<body class="body-form-account">
+    <main class="main-form-account">
+            <form action="" class="main-form-account__form">
+                <h2 class="header-top-account">Välkommen!</h2>
+                <h2 class="header-bottom-account">Registrera dig för ett konto</h2>
+                    <label class="account__labels-form" for="name">NAME</label>
+                    <input class="account__form-input" type="text" placeholder="Jane Goodall">
+                    <label class="account__labels-form" for="email">EMAIL</label>	
+                    <input class="account__form-input" type="email" placeholder="jane@chimpanzee.com">
+                    <label class="account__labels-form" for="password">PASSWORD</label>	
+                    <input class="account__form-input" type="password" placeholder="Password">	
+                    <input class="account__form-input-btn" type="submit" value="Sign me up!">
+            </form>
+    </main>
 </body>
 </html>
