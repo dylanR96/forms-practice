@@ -129,6 +129,7 @@
     justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    width: 30vw;
 }
 
 .header-top-train {
@@ -146,17 +147,21 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 15vw;
 }
 
 .wrapper__form--top-right {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
+    width: 15vw;
 }
 
 .form__header-bottom--left {
     background-color: rgb(226, 226, 226);
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .form__header-bottom--left > h3 , h6 {
@@ -165,10 +170,17 @@
 
 .form__header-bottom--right {
     background-color: rgb(236, 236, 236);
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .form__header-bottom--right > h3 , h6 {
     margin: 0;
+}
+
+.wrapper__class-select--second {
+    margin-left: 1rem;
 }
 
 .wrapper__title-select {
@@ -185,9 +197,10 @@
 }
 
 .train__form-select {
-    width: 9vw;
-    height: 2vh;
+    width: 13vw;
+    height: 3vh;
     border-radius: 5px;
+    
 }
 
 .wrapper__form--bottom {
@@ -217,6 +230,10 @@
 
 input[type=checkbox] {
     margin: 0;
+}
+
+input[type=text] {
+    height: 3vh;
 }
 
 input[type=submit] {
